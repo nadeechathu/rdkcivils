@@ -1,0 +1,291 @@
+/* css for services archvie page  */
+.header-banner {
+    top: 42%;
+    text-align: left;
+    width: 100%;
+    left: 8%;
+    color: black;
+}
+
+.btn-view-details:hover {
+    color: #FFECD1;
+    background-position: left center;
+    border-width: 2px;
+}
+
+.btn-view-details:hover span {
+    color: #FFECD1 !important;
+}
+.btn-view-details:hover img {
+    filter: brightness(0) invert(1);
+
+}
+.btn-view-details {
+    /* border: solid 2px #ffffff;     */
+    color: black;
+    background: linear-gradient(to left, rgb(255 255 255) 50%, rgb(33 37 41) 50%) right center / 200%;
+    transition: all 0.5s ease-out 0s;
+}
+
+.service-card {
+    box-shadow: 0px 3px 7px #bebebe;
+}
+
+.service-title {
+    min-height: 100px;
+}
+
+.btn-view {
+    color: #FFECD1 !important;
+}
+
+.client-auth-forms {
+
+    width: 52%;
+}
+
+.client-auth-register {
+    width: 78%;
+}
+
+
+/* Header top section */
+.header-top {
+    background: #4b3a32;
+    color: #FFECD1 ;
+}
+
+/* our story team section */
+.team-shadow {
+    box-shadow: 2px -1px 10px #bdbdbd;
+    border-radius: 22px !important;
+}
+
+.team-shadow:hover {
+    background: #4f3931;
+    color: white;
+}
+
+.contact-shadow{
+    box-shadow: 2px -1px 10px #bdbdbd;
+    border-radius: 22px !important;
+}
+
+.contact-radious{
+    /* box-shadow: 2px -1px 10px #bdbdbd; */
+    border-radius: 22px !important;
+}
+
+.contact-shadow:hover{
+    background: #FFEED5;
+}
+
+.name-text {
+    min-height: 48px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.experience-content {
+    min-height: 76px;    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+
+.description-text {
+    min-height: 96px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
+.director-info-card {
+    border: solid 1px;
+    border-radius: 14px !important;
+}
+
+.faq-btn:not(.collapsed) {
+    color: #ffffff !important;
+    background-color: #4b3a32;
+    box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.125);
+}
+
+.team-shadow:hover .rounded-social-buttons .social-button {
+    background: white !important;
+}
+
+.team-shadow .rounded-social-buttons .social-button:hover {
+    background: #FFEED5 !important;
+    color: #000000 !important;
+}
+.map-location {
+    color: #4f3931;
+}
+
+.team-shadow:hover .experience-content {
+    color: white !important;
+}
+
+.team-shadow:hover .name-text{
+    color: white !important;
+}
+
+.team-shadow:hover .description-text{
+    color: white !important;
+}
+
+.team-shadow:hover p{
+    color: white !important;
+}
+
+
+
+
+
+
+/* Navigation */
+.planing-services:hover .dropdown-menuitem1 {
+    display: block !important;
+}
+
+.building-control-services:hover .dropdown-menuitem2 {
+    display: block !important;
+}
+
+.dropdown-menuitem1 {
+    margin-left: 11rem;
+    position: absolute;
+    border-radius: 3px;
+    margin-top: -2.5rem;
+}
+
+.dropdown-menuitem2 {
+    margin-left: 12.4rem;
+    position: absolute;
+    border-radius: 3px;
+    margin-top: -2.5rem;
+}
+
+.nav-active{
+    background-color: #ffffff;
+    color: #483B32 !important;
+}
+
+
+.planinig-service .dropdown-menuitem3 {
+    display: block !important;
+}
+
+.bed-rooms,
+.designing-process,
+.other-service,
+.what-professionals,
+.design-div,
+.btn-view-details {
+
+    cursor: pointer;
+}
+
+
+
+
+.bts {
+  
+    margin: 0.6em 0;
+  }
+  .bts-a:hover{
+    color: #79b42b;
+    text-decoration: none;
+    background: white;   
+  }
+  .bts span {
+    font-size: 1.2em;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  .social{
+    transition: background 200ms ease-in-out 0s;
+    -webkit-transition: background 200ms ease-in-out 0s;
+    -moz-transition: background 200ms ease-in-out 0s;
+    -o-transition: background 200ms ease-in-out 0s;
+    -ms-transition: background 200ms ease-in-out 0s;
+    
+    margin-top: 12px;
+    -webkit-border-top-left-radius:1px;
+    -moz-border-radius-topleft:1px;
+    border-top-left-radius:1px;
+    -webkit-border-top-right-radius:1px;
+    -moz-border-radius-topright:1px;
+    border-top-right-radius:1px;
+    -webkit-border-bottom-right-radius:1px;
+    -moz-border-radius-bottomright:1px;
+    border-bottom-right-radius:1px;
+    -webkit-border-bottom-left-radius:1px;
+    -moz-border-radius-bottomleft:1px;
+    border-bottom-left-radius:1px;
+    text-indent:0;
+    display:block;
+    color:#ffffff;
+    height:50px;
+    line-height:50px;
+    width: 100%;
+    text-decoration:none;
+    text-align:center;
+    
+  }
+  
+  .fblogin {   
+    background-color:#3b5898;  
+  }
+  .fblogin:hover {
+    background-color:#5177c2;
+  }
+  .fblogin:active {
+    position:relative;
+    top:1px;
+  }
+  .gplogin {  
+    background-color:#dd4c39; 
+  }
+  .gplogin:hover {
+    background-color:#f06e60;
+  }
+  .gplogin:active {
+    position:relative;
+    top:1px;
+  }
+  .twlogin { 
+    background-color:#00abee;  
+  }
+  .twlogin:hover {
+    background-color:#4cbde6;
+  }
+  .twlogin:active {
+    position:relative;
+    top:1px;
+  }
+  
+  .bts a:hover{
+    text-decoration: none;
+    color: white;
+  }
+  .bts a:active{
+    color: white;
+    text-decoration: none;
+  }
+  .bts a:focus{
+    text-decoration: none;
+    color: white;
+  }
+  
+  .fa.fa-check-square {
+  padding-right: 19px;
+  }

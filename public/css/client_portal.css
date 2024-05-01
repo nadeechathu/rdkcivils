@@ -1,0 +1,65 @@
+.navbar {
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
+  }
+  .navbar .navbar-brand img {
+    max-width: 100px;
+  }
+  .navbar .navbar-nav .nav-link {
+    color: #000;
+  }
+  @media screen and (min-width: 1024px) {
+    .navbar {
+      letter-spacing: 0.1em;
+    }
+    .navbar .navbar-nav .nav-link {
+      padding: 0.5em 1em;
+    }
+    .search-and-icons {
+      width: 50%;
+    }
+    .search-and-icons form {
+      flex: 1;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    .navbar .navbar-brand img {
+      max-width: 7em;
+    }
+    .navbar .navbar-collapse {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: flex-end;
+    }
+    
+  }
+ 
+  .contact-info p,
+  .contact-info a {
+    font-size: 0.9em;
+    padding-right: 1em;
+    color: grey;
+  }
+  .contact-info a {
+    padding-right: 0;
+  }
+
+  .card {
+    border-radius: 10px; 
+    overflow: hidden;
+    border: 0;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.06),
+                0 2px 4px rgba(0, 0, 0, 0.07);
+    transition: all 0.15s ease;
+}
+
+.card img:hover {
+
+transition: 0.4s ease;
+cursor: pointer;
+transform: scale(1.1);
+}
+
+.client-portal-drop-shadow {
+
+  background-color: #ffffff;
+}

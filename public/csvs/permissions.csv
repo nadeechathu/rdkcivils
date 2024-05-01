@@ -1,0 +1,65 @@
+"id","name","type","created_at","updated_at"
+"1","view_posts","blog",NULL,NULL
+"2","add_posts","blog",NULL,NULL
+"3","edit_posts","blog",NULL,NULL
+"4","delete_posts","blog",NULL,NULL
+"5","view_categories","category",NULL,NULL
+"6","add_categories","category",NULL,NULL
+"7","edit_categories","category",NULL,NULL
+"8","delete_categories","category",NULL,NULL
+"9","view_users","user",NULL,NULL
+"10","add_users","user",NULL,NULL
+"11","add_permissions","user",NULL,NULL
+"12","view_permissions","settings",NULL,NULL
+"13","site_settings","settings",NULL,NULL
+"14","edit_permissions","settings",NULL,NULL
+"15","delete_permissions","settings",NULL,NULL
+"16","view_advertisements","advertisements",NULL,NULL
+"17","add_advertisements","advertisements",NULL,NULL
+"18","edit_advertisements","advertisements",NULL,NULL
+"19","delete_advertisements","advertisements",NULL,NULL
+"20","edit_users","user",NULL,NULL
+"21","view_subscriptions","subscribe","2023-06-07 06:30:01","2023-06-07 06:30:01"
+"22","view_sponsors","sponsors","2023-06-09 04:45:48","2023-06-09 04:45:48"
+"23","add_sponsors","sponsors","2023-06-09 06:11:26","2023-06-09 06:11:26"
+"24","remove_sponsors","sponsors","2023-06-09 06:11:37","2023-06-09 06:11:37"
+"25","edit_sponsors","sponsors","2023-06-09 08:13:40","2023-06-09 08:13:40"
+"26","update_sponsors","sponsors","2023-06-09 08:53:19","2023-06-09 08:53:19"
+"27","add_resources","resources","2023-06-12 05:05:27","2023-06-12 05:05:27"
+"28","edit_resources","resources","2023-06-12 05:05:49","2023-06-12 05:05:49"
+"29","remove_resources","resources","2023-06-12 05:06:03","2023-06-12 05:06:03"
+"30","view_resources","resources","2023-06-12 05:06:48","2023-06-12 05:06:48"
+"31","update_resources","resources","2023-06-12 05:06:58","2023-06-12 05:06:58"
+"32","add_rule","rules","2023-06-13 06:58:29","2023-06-13 06:58:29"
+"33","edit_rule","rules","2023-06-13 06:58:36","2023-06-13 06:58:36"
+"34","view_rule","rules","2023-06-13 06:58:43","2023-06-13 06:58:43"
+"35","remove_rule","rules","2023-06-13 06:58:51","2023-06-13 06:58:51"
+"36","add_forms","forms","2023-06-13 10:12:12","2023-06-13 10:12:12"
+"37","edit_forms","forms","2023-06-13 10:12:24","2023-06-13 10:12:24"
+"38","delete_forms","forms","2023-06-13 10:12:32","2023-06-13 10:12:32"
+"39","view_forms","forms","2023-06-13 10:12:48","2023-06-13 10:12:48"
+"40","view_gallery","gallery","2023-06-14 04:01:44","2023-06-14 04:01:44"
+"41","add_gallery","gallery","2023-06-14 04:01:52","2023-06-14 04:01:52"
+"42","remove_gallery","gallery","2023-06-14 04:02:00","2023-06-14 04:02:00"
+"43","edit_gallery","gallery","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"44","view_services","services","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"45","add_services","services","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"46","edit_services","services","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"47","delete_services","services","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"48","view_projects","projects","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"49","add_projects","projects","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"50","edit_projects","projects","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"51","delete_projects","projects","2023-06-14 04:02:09","2023-06-14 04:02:09"
+"52","view_clients","clients","2023-08-16 03:30:11","2023-08-16 03:30:11"
+"53","add_clients","clients","2023-08-16 04:14:27","2023-08-16 04:14:27"
+"54","edit_clients","clients","2023-08-16 04:14:36","2023-08-16 04:14:36"
+"55","remove_clients","clients","2023-08-16 04:14:47","2023-08-16 04:14:47"
+"56","approve_clients","clients","2023-08-16 06:03:29","2023-08-16 06:03:29"
+"57","view_document_types","documents","2023-08-18 08:27:20","2023-08-18 08:27:20"
+"58","add_document_types","documents","2023-08-18 08:27:59","2023-08-18 08:27:59"
+"59","edit_document_types","documents","2023-08-18 08:28:08","2023-08-18 08:28:08"
+"60","remove_document_types","documents","2023-08-18 08:28:17","2023-08-18 08:28:17"
+"61","view_testimonials","testimonial","2023-08-25 05:21:08","2023-08-25 05:21:08"
+"62","approve_testimonial","testimonial","2023-08-25 05:21:28","2023-08-25 05:21:28"
+"63","changeStatus_testimonial","testimonial","2023-08-25 05:22:07","2023-08-25 05:22:07"
+"64","view_inquiries","inquiry","2023-08-25 07:31:18","2023-08-25 07:31:18"

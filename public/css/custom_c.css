@@ -1,0 +1,414 @@
+
+
+.f-nunito{
+    font-family: 'Nunito Sans', sans-serif;
+}
+.f-questrial{
+    font-family: 'Questrial', sans-serif;
+}
+.about-p{
+    text-align: center;
+}
+
+.clr-br{
+    color: #483B32;
+}
+.services-section-header-banner{
+  background: url('../images/contact/banner/header-banner-about_us.png')no-repeat;
+  max-height: 480px;
+  min-height: 480px;
+  background-size: cover;
+}
+.contact-section-header-banner{
+background: url('../images/contact/banner/header-banner-contact_us.png')no-repeat;
+  max-height: 480px;
+  min-height: 480px;
+  background-size: cover;
+}
+
+.vision{
+    background-image: url(../images/contact/vision_missionx.png);
+background-attachment:fixed ;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.vision-h{
+color: white;
+padding-bottom: 20px;
+
+}
+.vision-p{
+color: white;
+}
+
+.bd{
+border-right: white;
+border-style: solid;
+border-width: 0 1px 0 0;
+}
+.mission-h{
+color: white;
+padding-bottom: 20px;
+}
+.mission-p{
+color: white;
+}
+
+
+.director{
+  padding-top: 0 !important;
+  color: #3e1b00;
+  font-style: italic;
+}
+.director-msg{
+  color: #483B32 ;
+  /* font-style: italic; */
+}
+.director-info{
+  background-image: linear-gradient(to right, #000000, #180e00);
+
+}
+.director-name{
+  color: #ffecd1;
+}
+.director-name-position{
+
+}
+
+.card-img-top{
+border-radius: 0;
+}
+.card-title {
+color: rgb(157, 77, 20);
+}
+.card-text{
+  color: rgb(157, 77, 20);
+}
+.team{
+  background-image: linear-gradient(to bottom right, #FFE6C3, #FFFAF3);
+}
+.partner-img{
+  max-width: 250px;
+}
+.contact-bg{
+  background-image: url(../images/contact/xxc.png);
+  width: 600px;
+  min-height: 450px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+.info{
+padding-top: 80px;
+padding-left: 120px;
+}
+.info-h{
+  color: #483B32;
+}
+.info-p, .info-company-name{
+  color: #B97C00;
+}
+.form-bg{
+  background-color: #e9e9e9;
+}
+.contact-form{
+  flex-direction: column;
+}
+.submit-btn{
+    font-family: 'Questrial', sans-serif;
+    margin-top: 5px;
+    font-size: 20px;
+  justify-content: space-around;
+  border-radius: 0;
+  color:  #B6884B;
+  background-image: linear-gradient(to bottom right, #000000, #3e1b00);
+  border: none;
+}
+.form-field{
+  border-radius: 0;
+}
+.form-label{
+  text-transform: capitalize;
+  color: #B97C00;
+}
+.map-responsive{
+    overflow:hidden;
+    padding-bottom:25%;
+    position:relative;
+    height:0;
+    }
+.map-responsive iframe{
+left:0;
+top:0;
+height:100%;
+width:100%;
+position:absolute;
+}
+
+/*quotation css*/
+.square{
+    width: 300px;
+     height: 300px;
+}
+.modal-square{
+    width: 200px;
+    height: 200px;
+}
+.form-check-input:checked {
+    background-color: #996300;
+    border-color: #6f4200;
+}
+.form-check-input{
+    border: 1px solid rgb(99 77 0);
+}
+.quotation-border {
+    border-width: 2px !important;
+    border: solid #40200040;
+    border-radius: 3px;
+}
+.quotation-fields:focus {
+    color: #402000;
+    background-color: #ffecd1;
+    outline: 0;
+    box-shadow: 0 0 0 0.25rem rgb(64, 32, 0);
+    border-color: #3e1b00;
+}
+
+
+
+/*mobile*/
+@media only screen and (max-width: 576px){
+  .client-auth-register, .client-auth-forms {
+    width: 100%;;
+  }
+  .about-p{
+    font-size: 14px !important;
+    padding: 30px 30px 0 30px;
+    text-align: center;
+  }
+  .reason{
+    font-size: 18px !important;
+    padding: 20px 0 !important;
+  }
+  .bd{
+    border: none;
+  }
+  .vision-h, .mission-h{
+    font-size: 18px !important;
+  }
+  .vision-p, .mission-p{
+    font-size: 16px !important;
+    padding: 0 20px;
+  }
+  .card-colomn{
+    padding: 10px 0;
+  }
+  .contact-bg{
+    width: 300px  !important;
+    align-items: center;
+    justify-content: center;
+    min-height: 300px;
+  }
+  .info-row{
+    display: flex !important;
+    justify-content: space-around !important;
+  }
+  .info{
+     padding-top: 30px;
+     text-align: center;
+     padding-left: 0;
+     padding-bottom: 0;
+
+  }
+  .info-h{
+    font-size: 16px !important;
+  }
+  .info-p{
+    font-size: 14px !important;
+  }
+  .inq{
+    padding-top: 30px;
+  }
+  .director-msg{
+    font-size: 14px !important;
+    text-align: justify;
+    padding-top: 20px;
+  }
+  .director-h{
+    font-size: 18px !important;
+    padding: 20px 0 !important;
+  }
+  .director-msg-colomn{
+    padding: 10px 20px;
+  }
+  .director-info{
+    width: 100%;
+  }
+  .director-name{
+    font-size: 16px !important;
+  }
+  .director-name-position{
+    font-size: 14px !important;
+  }
+
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+.bd{
+  border: none;
+}
+.vision{
+  padding: 50px 0;
+}
+.director-info{
+    width: 100%;
+  }
+.director-msg{
+  padding-top: 20pxw;
+}
+}
+/*vertical*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .bd{
+  border: none;
+}
+.info-row{
+  display: flex;
+  justify-content: space-around;
+}
+.info{
+
+  width: 400px;
+  margin-right: 0;
+}
+.director-img{
+  width: 100% !important;
+}
+}
+
+
+/*landscape*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+ .info-row{
+  display: flex;
+  justify-content: space-around;
+ }
+ .info{
+  padding-left: 50px;
+ }
+ .contact-bg{
+  width: 450px !important;
+}
+.form{
+  padding-top: 20px !important;
+}
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .contact-bg{
+
+    width: 550px !important;
+
+
+
+  }
+}
+/*large*/
+@media (min-width: 1400px) {
+
+}
+
+/* font sizing */
+
+
+.fs-6{
+    font-size: 6px;
+}
+.fs-8{
+    font-size: 8px;
+}
+.fs-10{
+    font-size: 10px;
+}
+.fs-12{
+    font-size: 12px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-18{
+    font-size: 18px;
+}
+.fs-20{
+    font-size: 20px;
+}
+.fs-22{
+    font-size: 22px;
+}
+.fs-24{
+    font-size: 24px;
+}
+.fs-26{
+    font-size: 26px;
+}
+.fs-28{
+    font-size: 28px;
+}
+.fs-30{
+    font-size: 30px;
+}
+.fs-40{
+    font-size: 40px;
+}
+.fs-50{
+    font-size: 50px;
+}
+.fs-60{
+    font-size: 60px;
+}
+.fs-70{
+    font-size: 70px;
+}
+.fs-80{
+    font-size: 80px;
+}
+.fs-90{
+    font-size: 90px;
+}
+.fs-100{
+    font-size: 100px;
+}
+
+
+/* font weights */
+.fw-300{
+    font-weight: 300;
+}
+.fw-400{
+    font-weight: 400;
+}
+.fw-500{
+    font-weight: 500;
+}
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.fw-800{
+    font-weight: 800;
+}
+.fw-900{
+    font-weight: 900;
+}.fw-1000{
+    font-weight: 1000;
+}
